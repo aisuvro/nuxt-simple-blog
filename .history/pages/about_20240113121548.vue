@@ -5,5 +5,7 @@
     </p>
 </template>
 <script setup>
+import { Title } from '#build/components';
+
     const title = useState('title')
 </script>
