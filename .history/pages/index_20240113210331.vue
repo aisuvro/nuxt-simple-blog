@@ -6,7 +6,7 @@
 
         <div class="mt-8">
             <article v-for="post in posts" :key="post.id" class="mt-4">
-                <Post  :post="post" />
+                <Post />
             </article>
         </div>
     </div>
@@ -14,12 +14,7 @@
 
 
 <script setup>
-
     const title = useState('title')
 
-    const { $apiFetch } = useNuxtApp()
-
-    const { data: posts } = await $apiFetch('posts')
-
-    
+    const { data: posts } = await useFetch('http://localhost:8080/api/posts')
 </script>

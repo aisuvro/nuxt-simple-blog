@@ -6,7 +6,7 @@
 
         <div class="mt-8">
             <article v-for="post in posts" :key="post.id" class="mt-4">
-                <Post  :post="post" />
+                <Post />
             </article>
         </div>
     </div>
@@ -17,9 +17,11 @@
 
     const title = useState('title')
 
-    const { $apiFetch } = useNuxtApp()
+    const $hello = hello()
 
-    const { data: posts } = await $apiFetch('posts')
+    console.log(hello('posts'))
 
-    
+    const { data: posts } = await useFetch('posts', {
+        baseURL: process.env.API_URL
+    })
 </script>

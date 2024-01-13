@@ -4,7 +4,7 @@
 
             <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
                 <img class="object-cover w-full h-32 lg:mx-6 lg:w-1/2 rounded-xl lg:h-60"
-                :src="post.image"
+                    src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                     alt="">
 
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
@@ -23,8 +23,8 @@
                             alt="">
 
                         <div class="mx-4">
-                            <h1 class="text-sm text-gray-700 dark:text-gray-200">{{ post.user.name }}</h1>
-                            <p class="text-sm text-gray-500 dark:text-gray-400">{{ post.user.email }}</p>
+                            <h1 class="text-sm text-gray-700 dark:text-gray-200">Amelia. Anderson</h1>
+                            <p class="text-sm text-gray-500 dark:text-gray-400">Lead Developer</p>
                         </div>
                     </div>
                 </div>

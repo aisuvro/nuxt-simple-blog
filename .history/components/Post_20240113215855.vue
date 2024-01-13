@@ -4,7 +4,7 @@
 
             <div class="mt-8 lg:-mx-6 lg:flex lg:items-center">
                 <img class="object-cover w-full h-32 lg:mx-6 lg:w-1/2 rounded-xl lg:h-60"
-                :src="post.image"
+                    src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
                     alt="">
 
                 <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
@@ -19,7 +19,7 @@
 
                     <div class="flex items-center mt-6">
                         <img class="object-cover object-center w-10 h-10 rounded-full"
-                            src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+                            :src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
                             alt="">
 
                         <div class="mx-4">

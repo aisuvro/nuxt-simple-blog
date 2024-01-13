@@ -6,7 +6,7 @@
 
         <div class="mt-8">
             <article v-for="post in posts" :key="post.id" class="mt-4">
-                <Post  :post="post" />
+                <Post  post="post" />
             </article>
         </div>
     </div>

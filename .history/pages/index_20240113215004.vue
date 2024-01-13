@@ -5,8 +5,8 @@
         </h1>
 
         <div class="mt-8">
-            <article v-for="post in posts" :key="post.id" class="mt-4">
-                <Post  :post="post" />
+            <article v-for="post in posts" :key="post.id" :post="post" class="mt-4">
+                <Post />
             </article>
         </div>
     </div>
