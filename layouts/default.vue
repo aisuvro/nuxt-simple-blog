@@ -15,6 +15,10 @@
                         <NuxtLink class="px-2 py-1 text-blue-500 border border-gray-500 rounded-md hover:text-blue-600"
                             to="/about">About</NuxtLink>
                     </li>
+                    <li class="ml-16">
+                        <NuxtLink class="px-2 py-1 text-blue-500 border border-gray-500 rounded-md hover:text-blue-600"
+                            to="/login">Login</NuxtLink>
+                    </li>
                 </ul>
             </nav>
         </header>
