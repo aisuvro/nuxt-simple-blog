@@ -86,9 +86,10 @@ const router = useRouter()
 
 
 
+$apiAuthGet('sanctum/csrf-cookie')
+
 async function submit() {
 
-    $apiAuthGet('sanctum/csrf-cookie')
 
     const { data: loginInfo, error: errors } = await $apiAuthPost('login',
         {

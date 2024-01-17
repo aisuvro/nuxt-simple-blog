@@ -8,10 +8,13 @@
                 Welcome to my blog
             </h1>
             <p class="mt-4">
+               User ID: {{ user.id }}
+            </p>
+            <p class="mt-4">
                Name: {{ user.name }}
             </p>
             <p class="mt-4">
-               Email: {{ user }}
+               Email: {{ user.email }}
             </p>
         </div>
     </div>
@@ -23,10 +26,9 @@
 
     const user = ref({})
 
-    onMounted(async() => {
+    // (async() => {
         // console.log('mounted');
         const { data: userInfo } = await $apiAuthGet('api/user')
-        user.value = userInfo
-        console.log(userInfo);
-    })
+        user.value = userInfo.value
+    // })
 </script>
