@@ -1,3 +1,13 @@
+![image](https://github.com/aisuvro/nuxt-simple-blog/assets/2842856/b409bdae-fe14-4be8-a56d-06d0c46052a5)
+
+![image](https://github.com/aisuvro/nuxt-simple-blog/assets/2842856/30c2e973-4dbd-4b6b-b04c-f380f9644f42)
+
+![image](https://github.com/aisuvro/nuxt-simple-blog/assets/2842856/86de030a-b2d8-47de-9824-6e1ea5027c10)
+
+![image](https://github.com/aisuvro/nuxt-simple-blog/assets/2842856/80c648c7-262b-482b-98ee-a5f8c5b0d93d)
+
+
+
 # Nuxt 3 Minimal Starter
 
 Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
