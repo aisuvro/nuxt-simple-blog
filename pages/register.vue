@@ -64,7 +64,8 @@
 <script setup>
 
 definePageMeta({
-    layout: 'fullscreen'
+    layout: 'fullscreen',
+    middleware: 'guest'
 })
 </script>
 

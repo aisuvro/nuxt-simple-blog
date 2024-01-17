@@ -14,6 +14,10 @@
     </div>
 </template>
 <script setup>
+definePageMeta({
+    middleware: 'auth'
+
+})
     const title = useState('title')
 
     const { $apiAuthGet } = useNuxtApp()
@@ -23,8 +27,6 @@
     // onMounted(async() => {
         // console.log('mounted');
         const { data: allPost } = await $apiAuthGet('api/user/posts')
-
-        console.log(allPost.value);
         posts.value = allPost.value
     // })
 </script>

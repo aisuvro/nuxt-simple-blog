@@ -27,6 +27,10 @@
                         <NuxtLink class="px-2 py-1 text-blue-500 border border-gray-500 rounded-md hover:text-blue-600"
                             to="/user-post">My Post</NuxtLink>
                     </li>
+                    <li class="ml-16">
+                        <NuxtLink class="px-2 py-1 text-blue-500 border border-gray-500 rounded-md hover:text-blue-600"
+                            to="/add-post">Add Post</NuxtLink>
+                    </li>
 
 
                 </ul>

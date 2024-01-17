@@ -73,7 +73,8 @@
 <script setup>
 
 definePageMeta({
-    layout: 'fullscreen'
+    layout: 'fullscreen',
+    middleware: 'guest'
 })
 
 const email = ref('')
@@ -97,13 +98,13 @@ async function submit() {
             password: password.value
         }
     )
-
-    // console.log(errors.value.data);
     
 
     if (!errors.value) {
         // route.to = '/'
         // window.location.href = '/'
+        useCookie('auth').value = 'true'
+        useCookie('user').value = JSON.stringify(loginInfo.value.data)
         router.push('/account')
     } else {
         error.value = errors.value.data
